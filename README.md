@@ -3,7 +3,7 @@
 
 </br>
 
-## Traning Algorithm 
+## Training Algorithm 
 
 - k-nearest neighbors 
 - Random forest
