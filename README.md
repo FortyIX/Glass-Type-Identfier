@@ -1,8 +1,16 @@
-# Supervised Learning 
+# Glass-type Classifier
  This is a simple classifier that identify different type of Glass based on data from UCI Machine Learning Repository (a dataset consists of percentage of all chemical elements involved in glass)
 
 
-## Learning Result 
+
+## Traning Algorithm 
+
+- k-nearest neighbors 
+- Random forest
+
+> I did not implement these algorithms, they were implemented by libraries for machine learning
+
+## Prediction Result 
 ```shell
 
 Confusion Matrix and Statistics
@@ -41,4 +49,6 @@ Balanced Accuracy      1.0000   1.0000  0.98214  0.75000      1.0  1.00000
 ```
 
 
+## Result Destiny Map 
+![map](http://fzhang.co.uk/storage/Rplot.png)
 
