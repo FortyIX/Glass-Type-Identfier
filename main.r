@@ -37,6 +37,8 @@ x <- dataset[,1:10]
 y <- dataset[,11]
 
 
+
+
 # Cross-Validation
 trainStyle <- trainControl("cv",10)
 metric <- "Accuracy"
@@ -61,6 +63,7 @@ prediction =predict(fit.knn,validation)
 
 print(confusionMatrix(prediction, validation$Type))
 
+print(densityplot(results))
 
 
 
